@@ -11,6 +11,8 @@ def splitemail(email):
             print(domain)
             print(gTLD)
             print(username)
+        else:
+            print("Please recheck your email address.")
     except ValueError:
         print("Please enter a valid email address.")
 
