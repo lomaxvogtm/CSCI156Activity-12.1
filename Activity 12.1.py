@@ -6,7 +6,7 @@ def splitemail(email):
     try:
         username, domain = email.split("@")
         domain, gTLD = domain.split(".")
-        print(username,domain, gTLD)
+        print(username,domain,gTLD)
         if gTLD in a:
             print(domain)
             print(gTLD)
